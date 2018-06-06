@@ -8,5 +8,15 @@
             "email": "yann.le-scouarnec@hetic.net"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Psr\\Hug\\" : "src/Helper/Psr8/Psr",
+            "Zyigh\\App\\" : "src/",
+            "Zyigh\\Test\\" : "test/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
 }
